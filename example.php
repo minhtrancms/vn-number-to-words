@@ -8,7 +8,7 @@
 
 require_once __DIR__ . '/src/NumberToWords.php';
 
-use NhatMinh\VnNumberToWords\NumberToWords;
+use MinhTranCms\VnNumberToWords\NumberToWords;
 
 echo "=== VN Number to Words - Examples ===\n\n";
 

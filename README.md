@@ -1,7 +1,7 @@
 # VN Number to Words
 
-[![Latest Stable Version](https://poser.pugx.org/nhatminh/vn-number-to-words/v)](https://packagist.org/packages/nhatminh/vn-number-to-words)
-[![License](https://poser.pugx.org/nhatminh/vn-number-to-words/license)](https://packagist.org/packages/nhatminh/vn-number-to-words)
+[![Latest Stable Version](https://poser.pugx.org/minhtrancms/vn-number-to-words/v)](https://packagist.org/packages/minhtrancms/vn-number-to-words)
+[![License](https://poser.pugx.org/minhtrancms/vn-number-to-words/license)](https://packagist.org/packages/minhtrancms/vn-number-to-words)
 
 Chuyển đổi số thành chữ tiếng Việt / Convert numbers to Vietnamese words.
 
@@ -17,7 +17,7 @@ Chuyển đổi số thành chữ tiếng Việt / Convert numbers to Vietnamese
 ## 📦 Installation
 
 ```bash
-composer require nhatminh/vn-number-to-words
+composer require minhtrancms/vn-number-to-words
 ```
 
 ## 🚀 Usage
@@ -29,7 +29,7 @@ composer require nhatminh/vn-number-to-words
 
 require_once 'vendor/autoload.php';
 
-use NhatMinh\VnNumberToWords\NumberToWords;
+use MinhTranCms\VnNumberToWords\NumberToWords;
 
 // Basic conversion
 echo NumberToWords::convert(123);

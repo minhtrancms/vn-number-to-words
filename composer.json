@@ -1,5 +1,5 @@
 {
-    "name": "nhatminh/vn-number-to-words",
+    "name": "minhtrancms/vn-number-to-words",
     "description": "Convert numbers to Vietnamese words. Chuyển đổi số thành chữ tiếng Việt.",
     "type": "library",
     "license": "MIT",
@@ -26,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "NhatMinh\\VnNumberToWords\\": "src/"
+            "MinhTranCms\\VnNumberToWords\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "NhatMinh\\VnNumberToWords\\Tests\\": "tests/"
+            "MinhTranCms\\VnNumberToWords\\Tests\\": "tests/"
         }
     },
     "scripts": {

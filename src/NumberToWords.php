@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace NhatMinh\VnNumberToWords;
+namespace MinhTranCms\VnNumberToWords;
 
 /**
  * Convert numbers to Vietnamese words
