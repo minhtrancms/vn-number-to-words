@@ -1,0 +1,40 @@
+{
+    "name": "nhatminh/vn-number-to-words",
+    "description": "Convert numbers to Vietnamese words. Chuyển đổi số thành chữ tiếng Việt.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "php",
+        "vietnamese",
+        "number-to-words",
+        "currency",
+        "vietnam",
+        "tieng-viet"
+    ],
+    "authors": [
+        {
+            "name": "Nhat Minh",
+            "email": "nmtran68@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "NhatMinh\\VnNumberToWords\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NhatMinh\\VnNumberToWords\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit tests/"
+    }
+}
